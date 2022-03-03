@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css"
+import GameFunction from './components/GameFunction';
 
 class App extends Component {
   render() {
