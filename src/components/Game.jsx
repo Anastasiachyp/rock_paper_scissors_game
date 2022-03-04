@@ -17,7 +17,7 @@ const Button = (props) => {
   );
 };
 
-function GamePlay() {
+function App() {
   const [game, setGame] = useState({
     userSelection: "",
     computerSelection: "",
@@ -104,4 +104,4 @@ function GamePlay() {
   );
 }
 
-export default GamePlay;
+export default App;
