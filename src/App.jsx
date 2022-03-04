@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/rules" element={<Rules />} />
         <Home />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 };
