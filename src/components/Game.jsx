@@ -32,7 +32,6 @@ function App() {
 
     if (user === computer) {
       setGame({
-        ...game,
         message: (game.message = "It's a tie!"),
       });
     } else if (
@@ -41,18 +40,15 @@ function App() {
       (user === "Scissors" && computer === "Paper")
     ) {
       setGame({
-        ...game,
         message: (game.message = "You won!"),
       });
     } else {
       setGame({
-        ...game,
         message: (game.message = "You lost!"),
       });
     }
 
     setGame({
-      ...game,
       userSelection: user,
       computerSelection: computer,
     });
